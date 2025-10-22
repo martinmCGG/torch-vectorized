@@ -19,7 +19,6 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7"],
     packages=find_packages(exclude=("tests",)),
-    install_requires=['numpy>=1.16.1',
-                      'torch>=1.1',
-                      'torchvision>=0.2.1']
+    install_requires=['torch>=1.1']
 )
+
